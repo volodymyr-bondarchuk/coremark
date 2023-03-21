@@ -1,4 +1,4 @@
 name: coremark
 build:
-    cmake-ext: True
-    kconfig-ext: True
+    cmake: zephyr/port
+    kconfig: zephyr/port/Kconfig
